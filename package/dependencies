@@ -1,0 +1,43 @@
+# Comments start with a '#'.
+# Empty lines are ignored.
+
+#    = Nitrux OS Minimal System =
+
+adduser
+apt
+apt-utils
+bzip2
+console-setup
+debconf
+debconf-i18n
+e2fsprogs
+eject
+initramfs-tools
+iproute2
+iputils-ping
+isc-dhcp-client
+kbd
+kmod
+less
+libelf1
+linux-firmware
+linux-base
+linux-sound-base
+locales
+lsb-release
+mawk
+memtest86+
+mount
+nano
+netbase
+netcat-openbsd
+netplan.io
+passwd
+procps
+python3
+sensible-utils
+sudo
+tzdata
+ubuntu-keyring
+udev
+whiptail
