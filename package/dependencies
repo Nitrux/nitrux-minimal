@@ -34,7 +34,6 @@ netcat-openbsd
 netplan.io
 passwd
 procps
-python3
 sensible-utils
 sudo
 tzdata
