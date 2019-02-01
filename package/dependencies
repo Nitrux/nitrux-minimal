@@ -32,6 +32,7 @@ nano
 netbase
 netcat-openbsd
 netplan.io
+original-awk
 passwd
 procps
 sensible-utils
