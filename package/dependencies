@@ -6,6 +6,7 @@
 adduser
 apt
 apt-utils
+base-files
 bzip2
 console-setup
 debconf
