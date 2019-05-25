@@ -18,7 +18,7 @@ branches:
   - development
 deploy:
 - provider: script
-  script: "./nomad-repository-util.sh upload nitrux-minimal *.deb"
+  script: "./nomad-repository-util.sh upload nitrux-minimal package/*.deb"
   skip_cleanup: true
   on:
     branch: master
