@@ -40,4 +40,5 @@ sudo
 tzdata
 ubuntu-keyring
 udev
+util-linux
 whiptail
