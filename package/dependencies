@@ -27,6 +27,7 @@ locales
 lsb-release
 mawk
 memtest86+
+mksh
 mount
 nano
 netbase
