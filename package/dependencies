@@ -32,7 +32,7 @@ mount
 nano
 netbase
 netcat-openbsd
-netplan.io
+#  netplan.io -- depends on systemd
 original-awk
 passwd
 procps
