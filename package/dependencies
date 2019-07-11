@@ -20,6 +20,7 @@ kbd
 kmod
 less
 libelf1
+libcupt4-2-downloadmethod-wget
 linux-firmware
 linux-base
 linux-sound-base
