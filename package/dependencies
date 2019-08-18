@@ -19,14 +19,14 @@ isc-dhcp-client
 kbd
 kmod
 less
-libelf1
 libcupt4-2-downloadmethod-wget
+libelf1
 linux-firmware
 linux-base
 linux-sound-base
 locales
 lsb-release
-mawk
+gawk
 memtest86+
 mksh
 mount
@@ -34,7 +34,7 @@ nano
 netbase
 netcat-openbsd
 #  netplan.io -- depends on systemd
-original-awk
+#  original-awk
 passwd
 procps
 sensible-utils
