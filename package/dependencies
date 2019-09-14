@@ -28,7 +28,6 @@ locales
 lsb-release
 gawk
 memtest86+
-mksh
 mount
 nano
 netbase
@@ -44,3 +43,4 @@ ubuntu-keyring
 udev
 util-linux
 whiptail
+zsh
