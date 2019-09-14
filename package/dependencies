@@ -28,6 +28,7 @@ locales
 lsb-release
 gawk
 memtest86+
+mksh
 mount
 nano
 netbase
