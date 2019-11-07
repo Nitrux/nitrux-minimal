@@ -4,7 +4,6 @@
 #    = Nitrux OS Minimal System =
 
 adduser
-cupt
 base-files
 bzip2
 console-setup
