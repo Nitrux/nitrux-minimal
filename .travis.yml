@@ -16,17 +16,13 @@ branches:
   only:
   - master
   - development
+  - legacy
 deploy:
 - provider: script
   script: "./nomad-repository-util.sh upload nitrux-minimal package/*.deb"
   skip_cleanup: true
   on:
-    branch: master
-#- provider: script
-  #script: "./nomad-repository-util.sh upload nomad-desktop-dev *.deb"
-  #skip_cleanup: true
-  #on:
-    #branch: development
+    branch: legacy
 notifications:
   email: false
   slack:
