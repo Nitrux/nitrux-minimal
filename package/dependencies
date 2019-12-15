@@ -4,7 +4,7 @@
 #    = Nitrux OS Minimal System =
 
 adduser
-base-files-legacy
+base-files
 bzip2
 console-setup
 debconf
