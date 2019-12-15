@@ -18,7 +18,7 @@ isc-dhcp-client
 kbd
 kmod
 less
-libcupt4-2-downloadmethod-wget
+#   libcupt4-2-downloadmethod-wget
 libelf1
 linux-firmware
 linux-base
