@@ -19,7 +19,7 @@ branches:
   - legacy
 deploy:
 - provider: script
-  script: ./source/nitrux-repository-util.sh *.deb
+  script: "./nitrux-repository-util.sh *.deb"
   skip_cleanup: true
   on:
     branch: legacy
