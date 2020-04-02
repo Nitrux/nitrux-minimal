@@ -3,6 +3,9 @@
 
 #    = Nitrux OS Minimal System =
 
+#  libcupt4-2-downloadmethod-wget
+#  netplan.io -- depends on systemd
+#  original-awk
 adduser
 base-files
 bzip2
@@ -11,6 +14,7 @@ debconf
 debconf-i18n
 e2fsprogs
 eject
+gawk
 initramfs-tools
 iproute2
 iputils-ping
@@ -18,22 +22,18 @@ isc-dhcp-client
 kbd
 kmod
 less
-#   libcupt4-2-downloadmethod-wget
 libelf1
-linux-firmware
 linux-base
+linux-firmware
 linux-sound-base
 locales
 lsb-release
-gawk
 memtest86+
 mksh
 mount
 nano
 netbase
 netcat-openbsd
-#  netplan.io -- depends on systemd
-#  original-awk
 passwd
 procps
 sensible-utils
