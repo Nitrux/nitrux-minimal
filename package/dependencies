@@ -20,7 +20,6 @@ kbd
 kmod
 less
 libelf1
-linux-aws
 linux-base
 linux-firmware
 linux-sound-base
