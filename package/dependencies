@@ -3,9 +3,6 @@
 
 #    = Nitrux OS Minimal System =
 
-#  libcupt4-2-downloadmethod-wget
-#  netplan.io -- depends on systemd
-#  original-awk
 adduser
 base-files
 bzip2
@@ -23,6 +20,7 @@ kbd
 kmod
 less
 libelf1
+linux-oem-20.04
 linux-base
 linux-firmware
 linux-sound-base
