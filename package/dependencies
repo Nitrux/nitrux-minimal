@@ -25,7 +25,6 @@ linux-firmware
 linux-sound-base
 lsb-release
 mksh
-molly-guard
 mount
 nano
 netbase

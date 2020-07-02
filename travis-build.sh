@@ -15,7 +15,7 @@ Priority: optional
 Homepage: https://nxos.org
 
 Package: nitrux-minimal
-Version: 0.1.20-${GIT_COMMIT}
+Version: 0.1.21-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
