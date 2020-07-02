@@ -25,8 +25,8 @@ linux-firmware
 linux-sound-base
 lsb-release
 mksh
-mount
 molly-guard
+mount
 nano
 netbase
 netcat-openbsd
