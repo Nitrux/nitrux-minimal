@@ -1,9 +1,9 @@
 dist: bionic
 
-addons:
-  apt:
-    packages:
-      - realpath
+# addons:
+  # apt:
+    # packages:
+      # - realpath
 
 script:
   - bash travis-build.sh
