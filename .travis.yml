@@ -1,10 +1,5 @@
 dist: bionic
 
-# addons:
-  # apt:
-    # packages:
-      # - realpath
-
 script:
   - sudo ./travis-build.sh
 
