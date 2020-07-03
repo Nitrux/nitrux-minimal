@@ -5,7 +5,7 @@ apt-get --yes install wget equivs curl git
 
 cd package/
 
-DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
+DEPENDS=$(echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
 
 GIT_COMMIT=$(git rev-parse --short HEAD)
 

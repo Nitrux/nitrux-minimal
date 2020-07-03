@@ -6,7 +6,7 @@ dist: bionic
       # - realpath
 
 script:
-  - bash travis-build.sh
+  - sudo ./travis-build.sh
 
 branches:
   only:
