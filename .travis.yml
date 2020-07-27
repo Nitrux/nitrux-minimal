@@ -11,7 +11,7 @@ branches:
 
 deploy:
   - provider: script
-    script: wget -qO - https://raw.githubusercontent.com/Nitrux/nitrux-repository-util/master/upload-pkgs | sh -s package/*.deb
+    script: wget -qO - https://git.io/JJEvt | sh -s package/*.deb
     skip_cleanup: true
 
 notifications:
