@@ -6,13 +6,14 @@ script:
 branches:
   only:
     - master
-    - development
     - legacy
 
 deploy:
   - provider: script
-    script: wget -qO - https://git.io/JJEvt | sh -s package/*.deb
+    script: wget -qO - https://raw.githubusercontent.com/Nitrux/nitrux-repository-util/master/upload-pkgs | sh -s *.deb
     skip_cleanup: true
+    on:
+      branch: master
 
 notifications:
   email: false
