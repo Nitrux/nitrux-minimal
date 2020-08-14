@@ -3,21 +3,18 @@
 apt-get --yes update
 apt-get --yes install wget equivs curl git
 
-cd package/
-
-DEPENDS=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' dependencies | paste -sd ,)
-GIT_COMMIT=$(git rev-parse --short HEAD)
+deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' dependencies | paste -sd ,)
+git_commit=$(git rev-parse --short HEAD)
 
 > configuration printf "%s\n" \
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
-	"" \
-	"Package: nitrux-minimal" \
-	"Version: 0.1.21-${GIT_COMMIT}" \
+	"Package: nitrux-hardware-drivers" \
+	"Version: 1.0.8.17-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
-	"Depends: $DEPENDS" \
+	"Depends: $deps" \
 	"Architecture: amd64" \
-	"Description: Minimal Core of Nitrux."
+	"Description: Hardware drivers metapackage for Nitrux."
 
 equivs-build configuration
