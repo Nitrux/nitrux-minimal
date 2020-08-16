@@ -3,7 +3,7 @@
 apt-get --yes update
 apt-get --yes install wget equivs curl git
 
-deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' packages/dependencies | paste -sd ,)
+deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
 git_commit=$(git rev-parse --short HEAD)
 
 > configuration printf "%s\n" \
