@@ -10,11 +10,11 @@ git_commit=$(git rev-parse --short HEAD)
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
-	"Package: nitrux-hardware-drivers" \
-	"Version: 1.0.8.17-$git_commit" \
+	"Package: nitrux-minimal" \
+	"Version: 0.1.21-${GIT_COMMIT}" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
 	"Architecture: amd64" \
-	"Description: Hardware drivers metapackage for Nitrux."
+	"Description: Minimal Core of Nitrux."
 
 equivs-build configuration
