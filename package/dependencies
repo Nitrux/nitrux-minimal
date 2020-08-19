@@ -5,7 +5,7 @@
 
 adduser
 base-files
-bzip2
+btrfs-progs
 console-setup
 debconf
 debconf-i18n
@@ -24,9 +24,7 @@ linux-oem-20.04
 linux-base
 linux-firmware
 linux-sound-base
-locales
 lsb-release
-memtest86+
 mksh
 mount
 nano
