@@ -39,3 +39,10 @@ udev
 util-linux
 whiptail
 zsh
+
+#    = Kernel =
+
+linux-headers-5.4.21-050421
+linux-headers-5.4.21-050421-generic
+linux-image-unsigned-5.4.21-050421-generic
+linux-modules-5.4.21-050421-generic
