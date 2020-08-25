@@ -20,7 +20,6 @@ kbd
 kmod
 less
 libelf1
-linux-oem-20.04
 linux-base
 linux-firmware
 linux-sound-base
@@ -40,3 +39,7 @@ udev
 util-linux
 whiptail
 zsh
+
+#    = Kernel =
+
+linux-oem-20.04
