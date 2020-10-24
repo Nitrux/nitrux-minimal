@@ -39,7 +39,3 @@ udev
 util-linux
 whiptail
 zsh
-
-#    = Kernel =
-
-linux-oem-20.04
