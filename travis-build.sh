@@ -11,11 +11,11 @@ git_commit=$(git rev-parse --short HEAD)
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
 	"Package: nitrux-minimal" \
-	"Version: 0.2.2-$git_commit" \
+	"Version: 0.2.3-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
 	"Conflicts: nitrux-minimal-legacy" \
-	"Architecture: amd64" \
+	"Architecture: all" \
 	"Description: Minimal Core of Nitrux."
 
 equivs-build configuration
