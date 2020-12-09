@@ -7,12 +7,9 @@ adduser
 base-files
 btrfs-progs
 console-setup
-debconf
-debconf-i18n
 e2fsprogs
 eject
 gawk
-initramfs-tools
 iproute2
 iputils-ping
 isc-dhcp-client
@@ -34,7 +31,6 @@ procps
 sensible-utils
 sudo
 tzdata
-ubuntu-keyring
 udev
 util-linux
 whiptail
