@@ -29,6 +29,7 @@ mount
 nano
 netbase
 netcat-openbsd
+ntpdate
 passwd
 procps
 sensible-utils
