@@ -5,7 +5,6 @@
 
 adduser
 base-files
-btrfs-progs
 console-setup
 e2fsprogs
 eject

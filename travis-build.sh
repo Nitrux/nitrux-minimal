@@ -10,11 +10,10 @@ git_commit=$(git rev-parse --short HEAD)
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
-	"Package: nitrux-minimal" \
-	"Version: 0.2.7-$git_commit" \
+	"Package: nitrux-minimal-arm64" \
+	"Version: 0.0.1-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
-	"Conflicts: nitrux-minimal-legacy" \
 	"Architecture: all" \
 	"Description: Minimal Core of Nitrux."
 
