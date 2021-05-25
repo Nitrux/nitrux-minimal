@@ -24,7 +24,6 @@ linux-base
 linux-firmware
 linux-sound-base
 lsb-release
-mksh
 mount
 nano
 netbase
