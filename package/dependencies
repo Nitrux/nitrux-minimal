@@ -38,4 +38,5 @@ ubuntu-keyring
 udev
 util-linux
 whiptail
+xfsprogs
 zsh
