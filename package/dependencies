@@ -5,9 +5,7 @@
 
 adduser
 base-files
-btrfs-progs
 console-setup
-e2fsprogs
 eject
 gawk
 iproute2
@@ -18,21 +16,15 @@ kmod
 less
 libelf1
 linux-base
-linux-firmware
-linux-sound-base
 lsb-release
 mksh
 mount
-nano
-netbase
-netcat-openbsd
 ntpdate
 passwd
 procps
 sensible-utils
-sudo
+doas
 tzdata
 udev
 util-linux
-whiptail
 zsh
