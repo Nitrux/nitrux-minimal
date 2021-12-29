@@ -6,6 +6,7 @@
 adduser
 base-files
 console-setup
+doas
 eject
 gawk
 iproute2
@@ -23,7 +24,6 @@ ntpdate
 passwd
 procps
 sensible-utils
-doas
 tzdata
 udev
 util-linux
