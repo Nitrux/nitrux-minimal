@@ -6,7 +6,7 @@
 adduser
 base-files
 console-setup
-doas
+doas-compat
 eject
 gawk
 iproute2
