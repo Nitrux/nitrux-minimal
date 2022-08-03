@@ -1,6 +1,6 @@
-# Nitrux Minimal Core Meta package [![Build Status](https://travis-ci.org/Nitrux/nitrux-minimal.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-minimal)
+# Nitrux Minimal Core Meta package
 
-This repository contains the source to create the `nitrux-minimal` metapackage.
+This repository contains the source to create the `nitrux-minimal-legacy` metapackage.
 
 # Issues
 If you find problems with the contents of this repository please create an issue.
