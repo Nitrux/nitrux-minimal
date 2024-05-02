@@ -18,7 +18,8 @@ libelf1
 linux-base
 lsb-release
 mount
-ntpdate
+ntpsec
+ntpsec-ntpdate
 passwd
 procps
 sensible-utils
