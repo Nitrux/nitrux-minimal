@@ -7,8 +7,6 @@ adduser
 base-files
 console-setup
 e2fsprogs
-eject
-gawk
 iproute2
 iputils-ping
 kbd
@@ -16,17 +14,10 @@ kmod
 less
 libelf1
 linux-base
-lsb-release
 mount
-ntpsec
-ntpsec-ntpdate
 passwd
 procps
-sensible-utils
 sudo
 tzdata
 udev
 util-linux
-xfsdump
-xfsprogs
-zsh
