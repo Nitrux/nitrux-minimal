@@ -6,7 +6,6 @@
 adduser
 base-files
 console-setup
-e2fsprogs
 iproute2
 iputils-ping
 kbd
