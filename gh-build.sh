@@ -23,16 +23,12 @@
 #############################################################################################################################################################################
 
 
-# -- Install necessary packages.
-
-apt -yy update
-apt -yy install wget equivs curl git
-
-
 # -- Build package.
 
 deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
-git_commit=$(git rev-parse --short HEAD)
+
+git_commit=$(git rev-parse --short HEAD 2>/dev/null)
+[ -z "$git_commit" ] && git_commit="0"
 
 > configuration printf "%s\n" \
 	"Section: misc" \
