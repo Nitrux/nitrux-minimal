@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install necessary packages
-        run: apt -q update && apt -yy install build-essential curl gnupg patchelf python3-pip ruby-full sudo wget
+        run: apt -q update && apt -yy install build-essential curl gnupg patchelf python3-pip ruby-full sudo wget git
 
       - name: Install PackageCloud
         run: gem install package_cloud
