@@ -16,7 +16,7 @@ linux-base
 mount
 passwd
 procps
-sudo
+doas
 tzdata
 udev
 util-linux
