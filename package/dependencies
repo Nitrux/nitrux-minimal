@@ -7,7 +7,6 @@ adduser
 base-files
 console-setup
 iproute2
-iputils-ping
 kbd
 kmod
 less
