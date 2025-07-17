@@ -1,7 +1,7 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = Nitrux OS Minimal System =
+#    = Minimal system =
 
 adduser
 base-files
@@ -15,7 +15,11 @@ linux-base
 mount
 passwd
 procps
-doas
+sudo
 tzdata
 udev
 util-linux
+
+#    = System customization =
+
+nitrux-system-settings
