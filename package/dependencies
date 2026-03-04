@@ -9,6 +9,7 @@ console-setup
 iproute2
 kbd
 kmod
+kmscon
 less
 libelf1
 linux-base
